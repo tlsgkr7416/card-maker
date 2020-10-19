@@ -1,0 +1,19 @@
+.title{
+    height: 20%;
+    background-color: #324A57;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.logout{
+    font-size: 15px;
+    position: relative;
+    left: 500px;
+    cursor: pointer;
+}

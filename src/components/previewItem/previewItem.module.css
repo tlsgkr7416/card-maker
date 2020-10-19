@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    width: 600px;
+    height: 100%;
+    padding: 20px;
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.cardImg {
+    padding: 10px;
+}
+
+.cardImg img{
+    width: 150px;
+    height: 150px;
+}
+
+.cardContainer{
+    list-style: none;
+}
+
+.cardContainerDark{
+    list-style: none;
+    color:white
+}
+
+.cardContainerDark li{
+    padding: 3px;
+}
+
+.cardContainer li{
+    padding: 3px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.company{
+    min-width: 300px;
+    border-bottom: 2px solid yellow;
+}

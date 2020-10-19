@@ -1,0 +1,38 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.mainContainer{
+    flex: 1;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.leftTitle{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rightTitle{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    .mainContainer{
+        flex:1;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+    }
+}
